@@ -2,7 +2,7 @@
 
 process sayHello {
   input: 
-    val x from cheers
+    val x
   output:
     stdout
   script:  
